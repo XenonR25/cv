@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px 30px;
+    background-color: rgb(234, 230, 226);
+    
+}
+
+.container{
+    margin: 0px 10px 10px 10px;
+    justify-content: center;
+    align-items: center;
+    max-width: auto;
+    max-height: 1366px ;
+    background-color: rgb(58, 98, 97) ;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.left{
+    color: rgb(0, 0, 0);
+    font-style: bold;
+    font-size: 19px;
+    width: 1400px;
+    height: 1366px;
+    position: initial;
+    padding: 60px 30px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(92, 150, 160);
+}
+.Down{
+    margin-top: 50px;
+}
+.sss li{
+    display: inline-block;
+    color: rgb(216, 212, 212);
+    /* background-color: rgb(69, 75, 117); */
+    border-radius: 10px;
+    padding: 8px;
+    width: 75px;
+    text-align: center;
+    margin: 5px;
+}
+
+.abc li{
+    display: inline-block;
+    color: rgb(215, 210, 210);
+    /* border: 2px solid #5dafa0; */
+    background: linear-gradient(to right,#061a7b,#074711); 
+    border-radius: 10px;
+    padding: 10px;
+    width: 79px;
+    text-align: center;
+    margin: 5px;
+
+}
+
+
+.abc p{
+    margin-left: 18px;
+    padding-right: 18px;
+}   
+.Hobbies li{
+    padding: 10px;
+} 
+
+.right{
+    margin: 0%;
+    font-size: 15px;
+    position: initial;
+    padding: 20px;
+    color: rgb(225, 231, 237);
+}
+
+
+.image{
+    display: flex;
+    align-items: center;
+}
+
+img{
+    border: 2px solid rgb(153, 161, 164);
+    width: 300px;
+    height: 230px;
+    border-radius: 50%;
+    margin: 0px 10px;
+}
+
+hr{
+    
+    margin: 0px;
+    height: 1px;
+    width: 15%;
+}
+.his{
+    width: 55%;
+}
+.ttt th
+{
+    padding: 30px 40px;
+}
+
+.ttt{
+    text-align: center;
+}
