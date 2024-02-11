@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 body{
     margin: 0px 30px;
@@ -21,8 +22,7 @@ body{
 }
 
 .left{
-    color: rgb(0, 0, 0);
-    font-style: bold;
+    color: rgb(36, 35, 65);
     font-size: 19px;
     width: 1400px;
     height: 1366px;
@@ -32,9 +32,6 @@ body{
     display: flex;
     flex-direction: column;
     background-color: rgb(92, 150, 160);
-}
-.Down{
-    margin-top: 50px;
 }
 .sss li{
     display: inline-block;
@@ -51,7 +48,7 @@ body{
     display: inline-block;
     color: rgb(215, 210, 210);
     /* border: 2px solid #5dafa0; */
-    background: linear-gradient(to right,#061a7b,#074711); 
+    background-color: rgb(36,35, 65);
     border-radius: 10px;
     padding: 10px;
     width: 79px;
@@ -100,6 +97,7 @@ hr{
 .his{
     width: 55%;
 }
+
 .ttt th
 {
     padding: 30px 40px;
